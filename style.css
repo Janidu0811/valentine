@@ -187,15 +187,15 @@ button {
     h1 {
         font-size: 3rem;
     }
+}
 
-    .btn-group {
-        flex-direction: column;
-        margin-top: 120px;
+@media (max-width: 480px) {
+    button {
+        padding: 10px 22px;
+        font-size: 1rem;
     }
 
-    .btn-no {
-        position: relative;
-        left: auto;
-        margin-top: 10px;
+    .btn-group {
+        margin-top: 130px;
     }
 }
